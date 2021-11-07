@@ -33,8 +33,7 @@ setInterval( () => {
             else if (countMMT > 59) {
                 countMMT = 0;
                 counterMM.innerText = `:0${countMMT}`;
-            
-            if (countHHT < 10) {
+              if (countHHT < 10) {
                 counterHH.innerText = `0${countHHT}`;
                 countHHT++;
             }
